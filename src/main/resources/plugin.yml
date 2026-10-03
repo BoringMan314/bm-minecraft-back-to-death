@@ -1,0 +1,19 @@
+name: bm-minecraft-back-to-death
+version: "26.3_0.0.1"
+main: bm.minecraft.back.to.death.BmMinecraftBackToDeathPlugin
+api-version: '26.3'
+description: "紀錄玩家最後一個死亡地點，玩家打 /back 即可傳送回去。"
+authors:
+  - "[B.M] 圓周率™3.14"
+website: "http://exnormal.com:81/"
+commands:
+  back:
+    description: 傳送到上一次死亡地點。
+    usage: /back
+  bm-minecraft-back-to-death:
+    description: 管理 bm-minecraft-back-to-death。
+    usage: /bm-minecraft-back-to-death [0|1|info|status|reload]
+permissions:
+  bm-minecraft-back-to-death.admin:
+    description: 允許管理 bm-minecraft-back-to-death。
+    default: op

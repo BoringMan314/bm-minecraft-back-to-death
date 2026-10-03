@@ -1,0 +1,7 @@
+# bm-minecraft-back-to-death configuration
+
+# Enable or disable the death-location feature.
+enabled: true
+
+# When true, in-game management requires OP; the console can always manage the plugin.
+admin-require-op: true
